@@ -1,3 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+section.main-section {
+  margin: 2vh 4vw;
+}
+
 .App {
   text-align: center;
 }
@@ -6,6 +18,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.card {
+  border: 2px solid;
+  padding: 1vh 1vw;
+  margin: 2vh auto;
+}
+
+.idcard {
+  display: flex;
+  flex-direction: row;
+}
+
+.idcard img {
+  width: 10%;
+}
+
+.card-info {
+  flex-direction: column;
+  padding: 0 1vw;
+}
+
+.card-info p{
+  line-height: 0.7;
+}
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
