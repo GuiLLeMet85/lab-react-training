@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
+import Greeting from './components/Greeting';
 
 function App() {
 
@@ -30,6 +31,15 @@ function App() {
               />
               </div>
           </section>
+
+          <section className='greet-sect'>
+          <h2>Greetings</h2>
+              <div className='greet'>
+                <Greeting lang="de">Ludwig</Greeting>
+                <Greeting lang="fr">François</Greeting>
+              </div>
+          </section>
+
       </>    
     );
 }
