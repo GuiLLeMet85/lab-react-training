@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Greeting(props) {
 
-    const {lang, children} = props   
+    const {lang, children} = props;   
     let greeting;
 
         switch(lang) {

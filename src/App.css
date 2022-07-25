@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect {
   margin: 2vh 4vw;
 }
 
@@ -25,7 +25,7 @@ section.main-section, section.greet-sect, section.random-sect {
   pointer-events: none;
 }
 
-.card, .greeting, .minmaxrandom {
+.card, .greeting, .minmaxrandom, .boxcolor {
   border: 2px solid;
   padding: 1vh 1vw;
   margin: 2vh auto;

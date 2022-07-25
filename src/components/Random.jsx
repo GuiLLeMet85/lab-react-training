@@ -4,8 +4,8 @@ export default function Random(props) {
 
     let {min, max} = props;
     
-    min = Math.floor(Math.random() * 6);
-    max = Math.floor(Math.random() * 100);
+    min = Math.floor(Math.random() * (7 - 1)) +1;
+    max = Math.floor(Math.random() * (101 - 1)) +1;
 
     return (
         <>

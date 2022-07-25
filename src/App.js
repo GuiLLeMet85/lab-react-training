@@ -2,6 +2,7 @@ import './App.css';
 import IdCard from './components/IdCard';
 import Greeting from './components/Greeting';
 import Random from './components/Random';
+import BoxColor from './components/BoxColor';
 
 function App() {
 
@@ -42,6 +43,12 @@ function App() {
           <section className='random-sect'>
             <h2>Random</h2>
                 <Random />
+          </section>
+
+          <section className='color-sect'>
+            <h2>Colors</h2>
+                <BoxColor r={255} g={0} b={0} />
+                <BoxColor r={128} g={255} b={0} />
           </section>
 
       </>    
