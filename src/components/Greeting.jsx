@@ -23,7 +23,7 @@ export default function Greeting(props) {
         }
     return (
         <div className="greeting">
-            {greeting}{props.children}
+            {greeting}{children}
         </div>
     )
 }

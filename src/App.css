@@ -1,12 +1,18 @@
 h1 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 p {
   font-size: 16px;
 }
 
-section.main-section {
+section.main-section, section.greet-sect, section.random-sect {
   margin: 2vh 4vw;
 }
 
@@ -19,7 +25,7 @@ section.main-section {
   pointer-events: none;
 }
 
-.card {
+.card, .greeting, .minmaxrandom {
   border: 2px solid;
   padding: 1vh 1vw;
   margin: 2vh auto;
@@ -31,7 +37,7 @@ section.main-section {
 }
 
 .idcard img {
-  width: 10%;
+  min-width: 15%;
 }
 
 .card-info {

@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import IdCard from './components/IdCard';
 import Greeting from './components/Greeting';
+import Random from './components/Random';
 
 function App() {
 
@@ -33,11 +33,15 @@ function App() {
           </section>
 
           <section className='greet-sect'>
-          <h2>Greetings</h2>
-              <div className='greet'>
+            <h2>Greetings</h2>
                 <Greeting lang="de">Ludwig</Greeting>
                 <Greeting lang="fr">François</Greeting>
-              </div>
+  
+          </section>
+
+          <section className='random-sect'>
+            <h2>Random</h2>
+                <Random />
           </section>
 
       </>    
