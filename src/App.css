@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect {
   margin: 2vh 4vw;
 }
 
@@ -119,4 +119,9 @@ p.text-card {
   to {
     transform: rotate(360deg);
   }
+}
+
+.stars {
+  font-size: 4rem;
+  text-align: center;
 }

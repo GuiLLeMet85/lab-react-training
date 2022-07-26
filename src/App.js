@@ -4,6 +4,7 @@ import Greeting from './components/Greeting';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
+import Rating from './components/Rating';
 
 
 function App() {
@@ -95,6 +96,16 @@ function App() {
                 </div>
 
           </section> 
+
+          <section className='rating-sect'>
+            <h2>Rating</h2>
+                <Rating>0</Rating>
+                <Rating>1.49</Rating>
+                <Rating>1.5</Rating>
+                <Rating>3</Rating>
+                <Rating>4</Rating>
+                <Rating>5</Rating>
+          </section>
 
       </>
     );
