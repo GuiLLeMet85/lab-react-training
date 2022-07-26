@@ -22,9 +22,8 @@ export default function Greeting(props) {
                 break;
         }
     return (
-        <div className="greeting">
+        <div className="greet-info">
             {greeting}{children}
         </div>
     )
 }
-

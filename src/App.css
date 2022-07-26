@@ -31,6 +31,10 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect {
   margin: 2vh auto;
 }
 
+.greet-info {
+  margin: 2vh auto;
+}
+
 .idcard {
   display: flex;
   flex-direction: row;
@@ -48,10 +52,6 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect {
 .card-info p{
   line-height: 0.7;
 }
-
-
-
-
 
 
 @media (prefers-reduced-motion: no-preference) {

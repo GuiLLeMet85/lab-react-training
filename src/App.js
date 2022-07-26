@@ -3,6 +3,8 @@ import IdCard from './components/IdCard';
 import Greeting from './components/Greeting';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import CreditCard from './components/CreditCard';
+
 
 function App() {
 
@@ -10,7 +12,7 @@ function App() {
       <>
         <section className='main-section'>
             <h1>IdCard</h1>
-              
+
               <div className='card'>
               <IdCard
                   lastName='Doe'
@@ -35,9 +37,12 @@ function App() {
 
           <section className='greet-sect'>
             <h2>Greetings</h2>
+            <div className= "greeting">
                 <Greeting lang="de">Ludwig</Greeting>
-                <Greeting lang="fr">François</Greeting>
-  
+              </div>
+              <div className= "greeting">
+                <Greeting lang="fr" className= "minmaxrandom">François</Greeting>
+              </div>
           </section>
 
           <section className='random-sect'>
@@ -51,7 +56,44 @@ function App() {
                 <BoxColor r={128} g={255} b={0} />
           </section>
 
-      </>    
+          <section className='credit-sect'>
+            <h2>Credit Card</h2>
+            <CreditCard
+                type="Visa"
+                number="0123456789018845"
+                expirationMonth={3}
+                expirationYear={2021}
+                bank="BNP"
+                owner="Maxence Bouret"
+                bgColor="#11aa99"
+                color="white"
+              />
+
+              <CreditCard
+                type="Master Card"
+                number="0123456789010995"
+                expirationMonth={3}
+                expirationYear={2021}
+                bank="N26"
+                owner="Maxence Bouret"
+                bgColor="#eeeeee"
+                color="#222222"
+              />
+
+              <CreditCard
+                type="Visa"
+                number="0123456789016984"
+                expirationMonth={12}
+                expirationYear={2019}
+                bank="Name of the Bank"
+                owner="Firstname Lastname"
+                bgColor="#ddbb55"
+                color="white"
+              />
+
+          </section> 
+
+      </>
     );
 }
 
