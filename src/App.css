@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect {
   margin: 2vh 4vw;
 }
 
@@ -53,6 +53,43 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect {
   line-height: 0.7;
 }
 
+img.logoCard {
+  width: 6vw;
+  float: right;
+   padding: 2vh 0vw;
+}
+
+.card-column {
+  display: flex;
+  flex-direction: row;
+}
+
+span.bank{
+  margin-left: 3vw;
+}
+
+.cardTarget {
+  padding: 2vh 2vw;
+  width: calc(30% - var(--main-gap)*2 / 3);
+  margin: calc(5px + 1rem);
+  border-radius: 20px;
+}
+
+p.text-card {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.numbers-card {
+  font-size: 1.8rem;
+  padding: 6vh 1vw 2vh 0;
+  text-align: center;
+  margin-right: -2vw;
+}
+
+:root {
+  --main-gap: 5px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
