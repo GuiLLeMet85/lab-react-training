@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect {
   margin: 2vh 4vw;
 }
 
@@ -25,7 +25,7 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect, .cre
   pointer-events: none;
 }
 
-.card, .greeting, .minmaxrandom, .boxcolor {
+.card, .greeting, .minmaxrandom, .boxcolor, .driverCard {
   border: 2px solid;
   padding: 1vh 1vw;
   margin: 2vh auto;
@@ -124,4 +124,40 @@ p.text-card {
 .stars {
   font-size: 4rem;
   text-align: center;
+}
+
+.driverCard  {
+  background-color: #455eb5;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  height: 20vh;
+}
+
+.driverCard img{
+  min-width: 100px;
+  width: 150px;
+  height: 150px;
+  min-height: 100px;
+  border-radius: 150px;
+}
+
+div.infoDC {
+  padding: 0vh 1vw;
+}
+
+p.nameDC, p.starsDC {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.5vh 1vw;
+}
+
+p.modelDC {
+  font-size: 1.3rem;
+  font-weight: 200;
+  margin: 0.5vh 1vw;
+
 }

@@ -21,9 +21,9 @@ export default function Greeting(props) {
             default: greeting = "Holi ";
                 break;
         }
-    return (
-        <div className="greet-info">
-            {greeting}{children}
-        </div>
-    )
+        return (
+            <div className="greet-info">
+                {greeting}{children}
+            </div>
+        )
 }
