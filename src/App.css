@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect {
   margin: 2vh 4vw;
 }
 
@@ -35,11 +35,17 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect, .cre
   margin: 2vh auto;
 }
 
-.idcard {
+.idcard, .card-column {
   display: flex;
   flex-direction: row;
 }
 
+.likebt-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .idcard img {
   min-width: 15%;
 }
@@ -57,11 +63,6 @@ img.logoCard {
   width: 6vw;
   float: right;
    padding: 2vh 0vw;
-}
-
-.card-column {
-  display: flex;
-  flex-direction: row;
 }
 
 span.bank{
@@ -159,5 +160,17 @@ p.modelDC {
   font-size: 1.3rem;
   font-weight: 200;
   margin: 0.5vh 1vw;
+}
 
+.bt-like {
+  padding: 2vh 2vw;
+  width: calc(30% - var(--main-gap)*2 / 3);
+  margin: calc(5px + 1rem);
+  font-size: 2.3rem;
+  color: white
+}
+
+.bt-like:hover {
+  border: 5px solid #455eb5;
+  border-radius: 2px;
 }

@@ -6,6 +6,7 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
 
 
 function App() {
@@ -130,7 +131,14 @@ function App() {
                   }}
                 />
            </section>
+          
+
+           <section className='likebt-sect'>
+            <h2>Like button</h2>
+           <LikeButton />
+           </section>
       </>
+
     );
 }
 
