@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, pictureclick-sect {
   margin: 2vh 4vw;
 }
 
@@ -167,7 +167,8 @@ p.modelDC {
   width: calc(30% - var(--main-gap)*2 / 3);
   margin: calc(5px + 1rem);
   font-size: 2.3rem;
-  color: white
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .bt-like:hover {

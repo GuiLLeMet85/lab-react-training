@@ -29,7 +29,7 @@ import React from "react";
             }
             return (
                 <div className="driverCard">
-                    <img src = {img} alt = "picture drive card profile"/>
+                    <img src = {img} alt = "drive card profile"/>
                     <div className="infoDC">
                         <p className="nameDC">{name}</p>
                         <p className="starsDC">{ratingDC}</p>

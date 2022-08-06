@@ -12,6 +12,6 @@ export default function LikeButton() {
 
 
     return (
-    <button onClick={handelLikes} style={colorBk} className="bt-like" >{counter}{counter !== 1 && ' Likes'}{counter === 1 &&  'Like'}</button>
+    <button onClick={handelLikes} style={colorBk} className="bt-like" >{counter} {counter  === 1 ? 'Like' : 'Likes'}</button>
     )
 }
