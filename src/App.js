@@ -8,6 +8,8 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+import maxence from './assets/images/maxence.png'
+import maxenceGlasses from './assets/images/maxence-glasses.png'
 
 
 function App() {
@@ -142,8 +144,8 @@ function App() {
           <section className='pictureclick-sect'>
           <h2>Click Picture</h2>
           <ClickablePicture
-            img='../assets/images/maxence.png'
-            imgClicked='../assets/images/maxence-glasses.png'
+            img={maxence}
+            imgClicked={maxenceGlasses}
           />
           </section>
 

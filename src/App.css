@@ -40,7 +40,7 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect, .cre
   flex-direction: row;
 }
 
-.likebt-sect {
+.likebt-sect, .pictureclick-sect {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,4 +174,9 @@ p.modelDC {
 .bt-like:hover {
   border: 5px solid #455eb5;
   border-radius: 2px;
+}
+
+img.maxence-pict {
+  border-radius: 5px;
+  width: 250px;
 }
