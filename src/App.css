@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, .pictureclick-sect, .dices-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, .pictureclick-sect, .dices-sect, .carousel-sect {
   margin: 2vh 4vw;
 }
 
@@ -40,7 +40,7 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect, .cre
   flex-direction: row;
 }
 
-.likebt-sect, .pictureclick-sect, .dices-sect {
+.likebt-sect, .pictureclick-sect, .dices-sect, .carousel-sect {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,10 +176,20 @@ p.modelDC {
   border-radius: 2px;
 }
 
-img.maxence-pict, img.dice {
+img.maxence-pict, img.dice, .carousel-pict img {
   border-radius: 5px;
   width: 250px;
 }
 img.maxence-pict {
   border-style: solid;
+}
+
+.bts-carrousel {
+  display: flex;
+  justify-content: space-around;
+  padding: 2vh 2vw;
+}
+
+.bts-carrousel button {
+  font-size: 30px;
 }
