@@ -150,6 +150,10 @@ function App() {
           />
           </section>
 
+          <section className='dices-sect'>
+          <h2>Dice Section</h2>
+               <Dice />   
+          </section>
 
       </>
 

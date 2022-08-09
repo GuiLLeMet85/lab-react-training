@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, pictureclick-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, .pictureclick-sect, .dices-sect {
   margin: 2vh 4vw;
 }
 
@@ -40,7 +40,7 @@ section.main-section, section.greet-sect, section.random-sect, .color-sect, .cre
   flex-direction: row;
 }
 
-.likebt-sect, .pictureclick-sect {
+.likebt-sect, .pictureclick-sect, .dices-sect {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,7 +176,10 @@ p.modelDC {
   border-radius: 2px;
 }
 
-img.maxence-pict {
+img.maxence-pict, img.dice {
   border-radius: 5px;
   width: 250px;
+}
+img.maxence-pict {
+  border-style: solid;
 }

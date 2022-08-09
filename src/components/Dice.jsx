@@ -14,13 +14,16 @@ export default function Dice() {
     const dices = [diceEmpty, dice1, dice2, dice3, dice4, dice5, dice6];
     let randomDice = dices[Math.floor(Math.random() * dices.length)]
 
+    const handleRandomDices = () => {
+        setDice(randomDice)
+    }
+
     const clickDices = () => {
         setDice(diceEmpty);
-        setTimeout(clickDices, 1000)
+        setTimeout(handleRandomDices, 1000)
     };
 
     return (
-
-    )
-
+        <img onClick={clickDices} src={dice} alt="Dice" className="dice"/>
+    );
 }
