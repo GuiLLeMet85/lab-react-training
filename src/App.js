@@ -12,6 +12,7 @@ import maxence from './assets/images/maxence.png'
 import maxenceGlasses from './assets/images/maxence-glasses.png'
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 
 function App() {
@@ -167,6 +168,13 @@ function App() {
                 ]}
                />   
           </section>
+
+          <section className='numbers-sect'>
+          <h2>Numbers table</h2>
+          <NumbersTable limit={12} />
+          </section>
+
+
 
       </>
 
