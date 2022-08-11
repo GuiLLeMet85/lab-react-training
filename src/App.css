@@ -12,7 +12,7 @@ p {
   font-size: 16px;
 }
 
-section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, .pictureclick-sect, .dices-sect, .carousel-sect, .numbers-sect {
+section.main-section, section.greet-sect, section.random-sect, .color-sect, .credit-sect, .rating-sect, .driver-sect, .likebt-sect, .pictureclick-sect, .dices-sect, .carousel-sect, .numbers-sect, .facebook-sect {
   margin: 2vh 4vw;
 }
 
@@ -216,4 +216,9 @@ img.maxence-pict {
   grid-template-rows: 100px 100px 100px;
   margin: 0 auto;
   justify-content: center;
+}
+
+.profile-pict {
+  max-width: 200px;
+  width: 150px;
 }

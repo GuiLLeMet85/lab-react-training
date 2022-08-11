@@ -13,6 +13,7 @@ import maxenceGlasses from './assets/images/maxence-glasses.png'
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersTable from './components/NumbersTable';
+import Facebook from './components/Facebook';
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
   return (
       <>
         <section className='main-section'>
-            <h1>IdCard</h1>
+            <h2>IdCard</h2>
 
               <div className='card'>
               <IdCard
@@ -174,7 +175,10 @@ function App() {
           <NumbersTable limit={12} />
           </section>
 
-
+          <section className='facebook-sect'>
+          <h2>Facebook</h2>
+          <Facebook />
+          </section>
 
       </>
 
